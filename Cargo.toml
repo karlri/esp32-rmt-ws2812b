@@ -1,0 +1,14 @@
+[package]
+name = "esp32-rmt-ws2812b"
+version = "0.1.0"
+edition = "2021"
+description = "Implements writing to ws8212b Neopixel leds using ESP32 remote control transmitter hardware."
+keywords = ["ws8212b", "smart", "leds", "rmt", "esp32"]
+authors = ["Karl Rikte"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+esp-idf-sys = "0.32"
+esp-idf-hal = "0.40"
